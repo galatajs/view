@@ -1,4 +1,4 @@
-import { Middleware, NextFunction, Request, Response } from "@istanbul/http";
+import { Middleware, NextFunction, Request, Response } from "@galatajs/http";
 import {
   LocalObject,
   RenderOptions,

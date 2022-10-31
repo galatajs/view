@@ -1,5 +1,5 @@
-import { createHttpServer, createRouter } from "@istanbul/http";
-import { createApp } from "@istanbul/app";
+import { createHttpServer, createRouter } from "@galatajs/http";
+import { createApp } from "@galatajs/app";
 import { createViewApp } from "../../lib";
 
 const app = createApp();
@@ -16,8 +16,8 @@ createRouter({
   prefix: "views",
 }).get("about", (req, res) => {
   res.render("about", {
-    name: "istanbul",
-    version: "0.0.1",
+    name: "galatajs",
+    version: "0.1.1",
   });
 });
 

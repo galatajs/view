@@ -1,4 +1,4 @@
-import { Middleware } from "@istanbul/http";
+import { Middleware } from "@galatajs/http";
 import { ViewEngine } from "./engine";
 
 export type ViewOptions = {
@@ -69,7 +69,7 @@ export interface ViewResponse {
   ): void;
 }
 
-declare module "@istanbul/http" {
+declare module "@galatajs/http" {
   interface Http1Response extends ViewResponse {}
   interface Http2Response extends ViewResponse {}
 }

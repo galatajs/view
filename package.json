@@ -1,11 +1,10 @@
 {
-  "name": "@istanbul/view",
-  "version": "0.0.1",
-  "description": "Template-engine packages of istanbul framework",
-  "homepage": "https://github.com/istanbulnode/view#readme",
+  "name": "@galatajs/view",
+  "version": "0.1.1",
+  "description": "Template-engine packages of galatajs framework",
+  "homepage": "https://github.com/galatajs/view#readme",
   "keywords": [
     "typescript",
-    "istanbul",
     "view",
     "template-engine"
   ],
@@ -13,10 +12,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/istanbulnode/view.git"
+    "url": "git+https://github.com/galatajs/view.git"
   },
   "bugs": {
-    "url": "https://github.com/istanbulnode/view/issues"
+    "url": "https://github.com/galatajs/view/issues"
   },
   "directories": {
     "lib": "lib",
@@ -33,10 +32,10 @@
     "build": "npm run clear && tsc"
   },
   "dependencies": {
-    "@istanbul/http": "^0.0.10"
+    "@galatajs/http": "^0.1.1"
   },
   "devDependencies": {
-    "@istanbul/app": "^0.0.10",
+    "@galatajs/app": "^0.1.1",
     "@types/jest": "^28.1.3",
     "@types/node": "^18.0.0",
     "@types/supertest": "^2.0.12",

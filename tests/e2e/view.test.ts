@@ -30,7 +30,7 @@ describe("view e2e testing", () => {
   });
 
   it("about route testing", async () => {
-    const msg = "<p>istanbul's version is 0.0.1!</p>";
+    const msg = "<p>galatajs's version is 0.1.1!</p>";
     const res = await request(server.instance)
       .get("/views/about")
       .buffer(true)
